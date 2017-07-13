@@ -45,7 +45,24 @@
 							</div>
 						</div>
 					</div>
-					
+
+					<div class="col-lg-12 col-md-12">
+						<div class="card margin-bottom-no">
+							<div class="card-main">
+								<div class="card-inner">
+									<div class="card-inner">
+										<p class="card-heading">充值码购买</p>
+									</div>
+									<div class="card-action">
+										<div class="card-action-btn pull-left">
+											<button class="btn btn-flat waves-attach" id="code-buy" ><span class="icon">shopping_cart</span>&nbsp;我没有充值码充值码怎么办？点此购买！</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
 					{if $pmw!=''}
 					<div class="col-lg-12 col-md-12">
 						<div class="card margin-bottom-no">
@@ -164,6 +181,9 @@
 				}
 			})
 		})
+		$("#code-buy").click(function () {
+            window.open("http://t.cn/RKoKgkW")
+        })
 		
 		
 	timestamp = {time()}; 
